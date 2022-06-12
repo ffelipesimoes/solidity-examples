@@ -1,4 +1,4 @@
-//SPDX-license-Identifier: MIT
+// SPDX-license-Identifier: MIT
 pragma solidity ^0.8.3;
 
 contract Array {
@@ -6,7 +6,6 @@ contract Array {
     uint[3] public numsFixed = [4, 5, 6];
 
     function workingWithArrays() external {
-       
         // Push - Adicionar um item ao array
         nums.push(4); // [1,2,3,4]
 
@@ -19,7 +18,7 @@ contract Array {
 
         //Remove a última posição do array
         nums.pop(); //[1,0,777]
-        
+
         //Cria um array na memoria
         uint[] memory a = new uint[](5);
         a[1] = 123;
